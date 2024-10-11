@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding: 0;
+}
+hr{
+    margin: 0;
+}
+.header{
+    width: 100%;
+    background-color: black;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    gap:15px
+}
+.menu a{
+    font-size: 18px;
+    text-decoration: none;
+    color:white;
+}
+.menu a:hover{
+    color:grey;
+}
+h1{
+    font-size: 35px;
+    text-align: center;
+}
+.sectiune{
+    background-color: black;
+    padding: 30px;
+    display: flex;
+    gap:30px;
+    justify-content: center;
+    align-items: center;
+}
+.sectiune div{
+    color: white;
+    flex:1;
+}
+.sectiune .div2{
+    padding: 0px 20px;
+}
+.sectiune .div2 li{
+    font-size: 16px;
+}
+.sectiune .div1 img{
+    max-width: 100%;
+    margin-top: 25px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.sectiune .div2 p{
+    font-size: 25px;
+    text-align: center;
+}
+.sectiune .div2 li{
+    list-style: none;
+}
+.sectiune2{
+    background-color: black;
+    padding: 30px;
+    display: flex;
+    gap:30px;
+}
+.form{
+    background:black;
+    border-radius: 20px;
+    padding: 30px;
+    margin: auto;
+    width: 50%;
+}
+.form h2{
+    color:white;
+    text-align: center;
+}
+.form div{
+    padding: 0px 20px;
+}
+.form label{
+    color: white;
+    width: 100%;
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.form input{
+    border: none;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+.form input[type=submit]{
+    margin-top: 10px;
+}
+
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+.footer ul{
+    list-style: none;   
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.footer p{
+    color:white;
+}

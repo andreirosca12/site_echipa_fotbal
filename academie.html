@@ -6,11 +6,12 @@
         content="Descopera academia F.C. Univeritatea Cluj, programul de formare a tinerelor talente">
     <title>F.C Universitatea Cluj</title>
     <link rel="icon" type="image/x-icon"  href="logo_1.png">
+    <link rel="stylesheet" href="academie.css">
 </head>
 <body>
-    <header>
-        <a href="index.html"><img src="logo_1.png" alt="Universitatea Cluj-Napoca" width="150" height="150"></a>
-        <nav>
+    <header class="header">
+        <a href="index.html"><img src="logo_1.png" alt="Universitatea Cluj-Napoca" width="100" height="100"></a>
+        <nav class="menu">
             <ul>
                 <li><a href="index.html">Acasa</a></li>
                 <li><a href="meciuri.html">Meciuri si Rezultate</a></li>
@@ -24,20 +25,23 @@
     <main>
         <h1>Academia FC Universitatea Cluj</h1>
         <hr>
-        <section>
-            <img src="academie.jpg" alt="echipa academie" width="450" height="300">
-            <p>“Șepcile roșii” au format, din 1919 până astăzi, nu doar SPORTIVI, ci și OAMENI. Cu un puternic centru de copii și juniori în spate, apreciat la nivel național, FC Universitatea Cluj duce mai departe această tradiție, iar creșterea și promovarea jucătorilor produși în propria academie este o parte importantă din strategia clubului care i-a dat "fotbalului mare", printre alții, pe:</p>
-            <ul>
-                <li>Olimpiu Morutan</li>
-                <li>Razvan Cociș</li>
-                <li>George Florescu</li>
-                <li>Dorin Goga</li>
-                <li>Gabriel Giurgiu</li>
-            </ul>
+        <section class="sectiune">
+            <div class="div1"><img src="academie.jpg" alt="echipa academie" ></div>
+            <div class="div2">
+                <p>“Șepcile roșii” au format, din 1919 până astăzi, nu doar SPORTIVI, ci și OAMENI. Cu un puternic centru de copii și juniori în spate, apreciat la nivel național, FC Universitatea Cluj duce mai departe această tradiție, iar creșterea și promovarea jucătorilor produși în propria academie este o parte importantă din strategia clubului care i-a dat "fotbalului mare", printre alții, pe:</p>
+                <ul>
+                    <li>Olimpiu Morutan</li>
+                    <li>Razvan Cociș</li>
+                    <li>George Florescu</li>
+                    <li>Dorin Goga</li>
+                    <li>Gabriel Giurgiu</li>
+                </ul>
+            </div>
         </section>
-        <section>
-            <h2>Pentru inscrieri la Academia de fobal completeaza formularul</h2>
-            <form>
+        <section class="sectiune2">
+            
+            <form class="form">
+                <h2>Pentru inscrieri la Academia de fobal completeaza formularul</h2>
                 <div>
                     <label for="nume">Nume:</label>
                     <input type="text" id="nume">
@@ -54,11 +58,14 @@
                     <label for="tel">Numar Telefon:</label>
                     <input type="text" id="tel">
                 </div>
-                <input type="submit" value="Trimite">
+                <div>
+                 <input type="submit" value="Trimite">   
+                </div>
+                
             </form>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <a href="index.html"><img src="logo_1.png" alt="Universitatea Cluj-Napoca" width="50" height="50"></a>
        <nav>
             <ul>
